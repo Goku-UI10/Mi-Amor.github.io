@@ -1,0 +1,491 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto Slab', serif;
+	background: radial-gradient(circle at 59.63% 33.32%, #00a2ff 0, #009eff 5%, #009aff 10%, #0094ff 15%, #008cff 20%, #0083ff 25%, #0077ff 30%, #1c68ff 35%, #8455ff 40%, #b43bff 45%, #d600ff 50%, #f000e7 55%, #ff00ce 60%, #ff00b4 65%, #ff0099 70%, #ff007e 75%, #ff0064 80%, #ff004b 85%, #ff0031 90%, #ff0011 95%, #ff0000 100%);
+}
+
+#principal{
+	background: radial-gradient(circle at 73.2% 30.53%, #ff5598 0, #ff46a5 8.33%, #ff36b2 16.67%, #ff25c0 25%, #ff12cd 33.33%, #ff00da 41.67%, #ff00e7 50%, #e514f4 58.33%, #c727ff 66.67%, #a238ff 75%, #6f45ff 83.33%, #0051ff 91.67%, #005bff 100%);
+	margin: 15px auto 15px;
+	width: 310px;
+	height: 4100px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 5px black;
+}
+
+#titulo{
+	margin-left: 17px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 35px;
+	background: linear-gradient(#FF33F0, #FFF733);
+	color: transparent;
+	-webkit-background-clip: text;
+	animation: text 3s linear infinite;
+}
+
+@keyframes text{
+	0%{
+		filter: hue-rotate(0deg);
+	}
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
+
+#titulo:hover{
+	color: #FF05C3;
+}
+
+#emoticono-1{
+	margin-top: 70px;
+	font-size: 100px;
+	margin-left: 85px;
+}
+
+#emoticono-2{
+	margin-top: 525px;
+	margin-left: 95px;
+	font-size: 90px;
+
+}
+
+#emoticono-3{
+	margin-top: 1025px;
+	font-size: 80px;
+	margin-left: 100px;
+}
+
+#emoticono-4{
+	margin-top: 1500px;
+	text-align: center;
+	margin-left: 105px;
+	font-size: 70px;
+}
+
+#emoticono-5{
+	margin-left: 112px;
+	margin-top: 2010px;
+	font-size: 60px;
+}
+
+#emoticono-6{
+	margin-left: 119px;
+	margin-top: 2485px;
+	font-size: 50px;
+}
+
+#emoticono-7{
+	margin-left: 131px;
+	margin-top: 2960px;
+	font-size: 40px;
+}
+
+#emoticono-8{
+	margin-left: 135px;
+	margin-top: 3420px;
+	font-size: 30px;
+}
+
+#emoticono-9{
+	margin-top: 3900px;
+	font-size: 100px;
+	margin-left: 85px;
+}
+
+h1{
+	position: absolute;
+}
+
+h2{
+	position: absolute;
+	text-align: center;
+}
+
+#primero{
+	margin-top: 225px;
+	margin-left: 42px;
+	background: linear-gradient(#09F300, #05FFFF);
+	color: transparent;
+	-webkit-background-clip: text;
+	animation: text 1.5s linear infinite;
+}
+
+#primero:hover{
+	color: yellow;
+}
+
+#segundo{
+	margin-top: 660px;
+	background: linear-gradient(#F100FF, #FFFF00);
+	color: transparent;
+	-webkit-background-clip: text;
+	animation: text 1.5s linear infinite;
+}
+
+#segundo:hover{
+	color: #D9FF00;
+}
+
+#tercero{
+	margin-top: 1150px;
+	background: linear-gradient(#ECFF00, #FA00FF);
+	color: transparent;
+	-webkit-background-clip: text;
+	animation: text 1.5s linear infinite;
+}
+
+#tercero:hover{
+	color: #F6FF00;
+}
+
+#cuarto{
+	margin-top: 1625px;
+	background: linear-gradient(#FFF100, #FF00B8);
+	color: transparent;
+	-webkit-background-clip: text;
+	animation: text 1.5s linear infinite;
+}
+
+#cuarto:hover{
+	color: #FFB900;
+}
+
+#quinto{
+	margin-top: 2125px;
+	background: linear-gradient(#FF8500, #FF00EE);
+	color: transparent;
+	-webkit-background-clip: text;
+	animation: text 1.5s linear infinite;
+}
+
+#quinto:hover{
+	color: #FF0093;
+}
+
+#sexto{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 2590px;
+	background: linear-gradient(#F4FF00, #FF00D6);
+	color: transparent;
+	-webkit-background-clip: text;
+	animation: text 1.5s linear infinite;
+}
+
+#sexto:hover{
+	color: #F9FF00;
+}
+
+#septimo{
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 3052px;
+	background: linear-gradient(#FFC800, #FF00B0);
+	color: transparent;
+	-webkit-background-clip: text;
+	animation: text 1.5s linear infinite;
+}
+
+#septimo:hover{
+	color: #F4FF00;
+}
+
+#octavo{
+	margin-top: 3500px;
+	background: linear-gradient(#E1FF00, #FF00B5);
+	color: transparent;
+	-webkit-background-clip: text;
+	animation: text 1.5s linear infinite;
+}
+
+#octavo:hover{
+	color: #FFFC00;
+}
+
+img{
+	position: absolute;
+	border-radius: 10px;
+	margin-left: 80px;
+	display: flex;
+	width: 150px;
+	box-shadow: 0px 0px 10px 2px black;
+}
+
+#imagen-1{
+	margin-top: 300px;
+}
+
+#imagen-1:hover{
+	box-shadow: 0px 0px 10px 3px #FF0000;
+	border-radius: 20px;
+}
+
+#imagen-2{
+	margin-top: 800px;
+}
+
+#imagen-2:hover{
+	box-shadow: 0px 0px 10px 4px #FF0069;
+	border-radius: 20px;
+}
+
+#imagen-3{
+	margin-top: 1260px;
+}
+
+#imagen-3:hover{
+	box-shadow: 0px 0px 10px 5px #0008FF;
+	border-radius: 20px;
+}
+
+#imagen-4{
+	margin-top: 1770px;
+}
+
+#imagen-4:hover{
+	box-shadow: 0px 0px 11px 6px #19FF00;
+	border-radius: 20px;
+}
+
+#imagen-5{
+	margin-top: 2240px;
+}
+
+#imagen-5:hover{
+	box-shadow: 0px 0px 12px 7px #FF7C00;
+	border-radius: 20px;
+}
+
+#imagen-6{
+	margin-top: 2710px;
+}
+
+#imagen-6:hover{
+	box-shadow: 0px 0px 13px 8px #FF0039;
+	border-radius: 20px;
+}
+
+#imagen-7{
+	margin-top: 3170px;
+}
+
+#imagen-7:hover{
+	box-shadow: 0px 0px 14px 9px #004AFF;
+	border-radius: 20px;
+}
+
+#imagen-8{
+	margin-top: 3655px;
+}
+
+#imagen-8:hover{
+	box-shadow: 0px 0px 15px 10px #06FF00;
+	border-radius: 20px;
+}
+
+.amor{
+	width: 30px;
+	height: 30px;
+	background: #ff0080;
+	position: absolute;
+	top: 3920px;
+	right: 250px;
+	transform: rotate(-45deg);
+	box-shadow: 0px 0px 10px 3px #ff0080;
+	animation: heart 0.6s linear infinite;
+}
+
+@keyframes heart{
+	0%{
+		transform: rotate(-45deg) scale(1.2);
+	}
+	80%{
+		transform: rotate(-45deg) scale(1.0);		
+	}
+	100%{
+		transform: rotate(-45deg) scale(0.8);
+	}
+}
+
+.amor:before{
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #ff0080;
+	border-radius: 50;
+	position: absolute;
+	top: -50%;
+	box-shadow: 0px 0px 10px 3px #ff0080;
+}
+
+.amor:after{
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #ff0080;
+	position: absolute;
+	border-radius: 50;
+	right: -50%;
+	box-shadow: 0px 0px 10px 3px #ff0080;
+}
+
+.corazon{
+	width: 30px;
+	height: 30px;
+	background: #ff0080;
+	position: absolute;
+	top: 3920px;
+	right: 40px;
+	transform: rotate(-45deg);
+	box-shadow: 0px 0px 10px 3px #ff0080;
+	animation: heart 0.6s linear infinite;
+}
+
+.corazon:before{
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #ff0080;
+	border-radius: 50;
+	position: absolute;
+	top: -50%;
+	box-shadow: 0px 0px 10px 3px #ff0080;
+}
+
+.corazon:after{
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #ff0080;
+	position: absolute;
+	border-radius: 50;
+	right: -50%;
+	box-shadow: 0px 0px 10px 3px #ff0080;
+}
+
+.corazon-2{
+	width: 30px;
+	height: 30px;
+	background: #ff0080;
+	position: absolute;
+	top: 4050px;
+	right: 40px;
+	transform: rotate(-45deg);
+	box-shadow: 0px 0px 10px 3px #ff0080;
+	animation: heart 0.6s linear infinite;
+}
+
+.corazon-2:before{
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #ff0080;
+	border-radius: 50;
+	position: absolute;
+	top: -50%;
+	box-shadow: 0px 0px 10px 3px #ff0080;
+}
+
+.corazon-2:after{
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #ff0080;
+	position: absolute;
+	border-radius: 50;
+	right: -50%;
+	box-shadow: 0px 0px 10px 3px #ff0080;
+}
+
+.corazon-3{
+	width: 30px;
+	height: 30px;
+	background: #ff0080;
+	position: absolute;
+	top: 4050px;
+	right: 250px;
+	transform: rotate(-45deg);
+	box-shadow: 0px 0px 10px 3px #ff0080;
+	animation: heart 0.6s linear infinite;
+}
+
+.corazon-3:before{
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #ff0080;
+	border-radius: 50;
+	position: absolute;
+	top: -50%;
+	box-shadow: 0px 0px 10px 3px #ff0080;
+}
+
+.corazon-3:after{
+	content: '';
+	width: 30px;
+	height: 30px;
+	border-radius: 50px;
+	background: #ff0080;
+	position: absolute;
+	border-radius: 50;
+	right: -50%;
+	box-shadow: 0px 0px 10px 3px #ff0080;
+}
+
+@media screen and (max-width: 400px){
+	.amor{
+		right: 290px;
+	}
+
+	.corazon{
+		right: 80px;
+	}
+
+	.corazon-2{
+		right: 80px;
+	}
+
+	.corazon-3{
+		right: 290px;
+	}
+
+	#octavo{
+		margin-right: 50px;
+	}
+
+	#septimo{
+		margin-right: 60px;
+	}
+
+	#sexto{
+		margin-right: 50px;
+	}
+
+	#quinto{
+		margin-right: 50px;
+	}
+
+	#cuarto{
+		margin-right: 50PX;
+	}
+
+	#tercero{
+		margin-right: 50px;
+	}
+
+	#segundo{
+		margin-right: 50px;
+	}
+}
